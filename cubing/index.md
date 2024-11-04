@@ -8,7 +8,7 @@ has_children: true
 # Cubing
 
 ## Step 1: Create a daisy
-Watch this video: https://www.youtube.com/watch?v=2mgtMpoAd8c
+Watch the video [linked here](https://www.youtube.com/watch?v=2mgtMpoAd8c)
 
 ## Step 2: Create a white cross
-Watch this video: https://www.youtube.com/watch?v=wkyCH2DKCsQ
+Watch the video [linked here](https://www.youtube.com/watch?v=wkyCH2DKCsQ)
