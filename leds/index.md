@@ -29,9 +29,6 @@ Light LEDs from a Raspberry Pi
 ### Change colors
 - Follow the steps 5:30 - 7:08 of the video [linked here](https://www.youtube.com/watch?v=aNlaj1r7NKc&start=330&end=428)
 
-
-
-Customize
-https://g.co/kgs/2eMhdLw
-
-https://core-electronics.com.au/guides/raspberry-pi/fully-addressable-rgb-raspberry-pi/
+## Optional Extra Details
+- https://g.co/kgs/2eMhdLw
+- https://core-electronics.com.au/guides/raspberry-pi/fully-addressable-rgb-raspberry-pi/
