@@ -19,3 +19,7 @@ Which are you working on?
 [Gears]({% link gears/index.md %})
 
 [Cubing]({% link cubing/index.md %})
+
+
+## G2
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQkpXycCkw9-SXjXAgTVqJsuUbHr6gnKbin6HVs1i3vXHJmDpkODqybD69T2026UupJR2QGLZwuqbYr/pubhtml?gid=1933559144&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
