@@ -8,7 +8,7 @@ has_toc: false
 
 # Sumo
 
-[Day 1: Distance Sensors]({% link roomba/distance.md %})
+[Day 1: Distance Sensors]({% link sumo/distance.md %})
 
 Day 2:
 
