@@ -17,8 +17,8 @@ layout: default
 <td style="width:100%">how to control LED strip colors</td>
 </tr>
 <tr>
-<th>Making:</th>
-<td style="width:100%">light patterns with multiple colors</td>
+<th>Making LEDs:</th>
+<td style="width:100%">patterns with multiple colors</td>
 </tr>
 </table>
 

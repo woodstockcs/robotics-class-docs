@@ -17,7 +17,7 @@ layout: default
     <td style="width:100%">how to control servo motors</td>
   </tr>
   <tr>
-    <th>Making:</th>
+    <th>Making Roomba:</th>
     <td style="width:100%">drive forward and stop</td>
   </tr>
 </table>
