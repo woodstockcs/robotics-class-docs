@@ -26,7 +26,7 @@ layout: default
 ## Walkthrough
 
 1. Install the IR sensors following the [IR LED installation guide](https://learn.parallax.com/tutorials/robot/sumobot-wx/ir-sumobot-wx-opponent-detection-and-tracking/install-front-ir-leds-and) up to the part that says "Installation"
-2. Download and run the test program from the [IR testing guide](https://learn.parallax.com/tutorials/robot/sumobot-wx/ir-sumobot-wx-opponent-detection-and-tracking/terminal-ir-distance)
+2. Download and run the test program from the [IR testing guide](https://learn.parallax.com/tutorials/robot/sumobot-wx/ir-sumobot-wx-opponent-detection-and-tracking/terminal-ir-distance). Make use of the Troubleshooting section at the bottom of that page.
 3. Use a white piece of paper to verify the sensors read:
    - 8 when no object is detected
    - 0-2 for very close objects
