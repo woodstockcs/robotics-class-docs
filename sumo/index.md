@@ -3,6 +3,7 @@ title: Sumo
 nav_order: 3
 has_children: true
 layout: default
+has_toc: false
 ---
 
 # Sumo

@@ -3,6 +3,7 @@ title: LEDs
 nav_order: 4
 has_children: true
 layout: default
+has_toc: false
 ---
 
 # LEDs
