@@ -14,3 +14,5 @@ Day 2: Animation
 Day 3: Sensors
 
 Day 4: Custom
+
+Day 5: Assessment

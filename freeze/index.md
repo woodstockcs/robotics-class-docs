@@ -7,4 +7,4 @@ has_children: true
 
 # Freeze Tag
 
-[Lesson 1: Controller]({% link freeze/controller.md %})
+[Day 1: Controller]({% link freeze/controller.md %})

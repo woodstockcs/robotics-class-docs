@@ -2,7 +2,7 @@
 title: Distance Sensors
 nav_order: 1
 parent: Sumo
-layout: home
+layout: default
 ---
 
 # Distance Sensors
@@ -55,6 +55,8 @@ Explore IR a bit online. Browse these links.
 > Take a picture...
 >
 > of the installed sensors, then check the box in your sprint notes.
+>
+> **Note**: Hang on to this picture. You'll use this again soon in the assessment.
 
 <br><br>
 
