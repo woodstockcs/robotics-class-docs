@@ -6,3 +6,11 @@ layout: default
 ---
 
 # LEDs
+
+[Day 1: Color]({% link leds/color.md %})
+
+Day 2: Animation
+
+Day 3: Sensors
+
+Day 4: Custom

@@ -1,11 +1,11 @@
 ---
-title: Colors
+title: Color
 nav_order: 1
 parent: LEDs
 layout: default
 ---
 
-# Colors
+# Color
 
 <br><br>
 
@@ -80,6 +80,8 @@ Take a few minutes to explore colors:
 > Take a picture...
 >
 > of your LED strip glowing red with one white LED, then check the box in your sprint notes.
+>
+> **Note**: Hang on to this picture. You'll use this again soon in the assessment.
 
 <br><br>
 
