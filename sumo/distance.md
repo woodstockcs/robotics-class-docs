@@ -17,7 +17,7 @@ layout: default
     <td style="width:100%">how to read values from IR distance sensors</td>
   </tr>
   <tr>
-    <th>Making:</th>
+    <th>Making Sumo:</th>
     <td style="width:100%">install sensors to detect other robots</td>
   </tr>
 </table>
