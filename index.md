@@ -12,6 +12,8 @@ Which are you working on?
 
 [Roomba]({% link roomba/index.md %})
 
+[Sumo]({% link sumo/index.md %})
+
 [Lifts]({% link lifts/index.md %})
 
 [LEDs]({% link leds/index.md %})
