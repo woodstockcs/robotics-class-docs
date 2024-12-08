@@ -21,3 +21,5 @@ Which are you working on?
 [Gears]({% link gears/index.md %})
 
 [Cubing]({% link cubing/index.md %})
+
+[Events](https://docs.google.com/spreadsheets/d/14yjt9WeImE7bghKO1MnMVBAK2pkCUTpxnHTk_ZUhfoo/edit?gid=1891473878#gid=1891473878)
