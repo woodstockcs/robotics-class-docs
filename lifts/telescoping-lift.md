@@ -25,4 +25,6 @@ layout: default
 
 ### Part 2: Build the Track
 
-(coming soon)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRrzcZw_thgoR6u_IZafvt_UK5oFd8aE854NF31AT4iaemuBLHO4LXL1a1tOBnwaU7IWFjFZ8q3MToe/embed?loop=true" frameborder="0" width="468" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<br><br>
