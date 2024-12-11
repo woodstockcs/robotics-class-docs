@@ -12,7 +12,7 @@ parent: Freeze Tag
 1. Get your a controller and a brain
 1. Turn them both on
 1. Connect controller to brain
-1. Go to [codeexp.vex.com](codeexp.vex.com)
+1. Go to [codeexp.vex.com](https://codeexp.vex.com)
 1. Click File > New Text Project > Python > EXP Brain.
 1. Connect the brain (wait for the green brain icon)
 

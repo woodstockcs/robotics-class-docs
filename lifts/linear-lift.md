@@ -19,4 +19,4 @@ layout: default
 
 Note: This video uses a slightly different version of robot parts than we have, so you'll need to adapt accordingly. It is still useful, though.
 
-[link to video](https://www.youtube.com/watch?v=GwvHStrcXWU&list=PLYZlZ-HVwqm4-iTDcZ4YVJ340yVCvwmbU&index=2)
+[link to video](https://www.youtube.com/watch?v=GwvHStrcXWU&list=PLYZlZ-HVwqm4-iTDcZ4YVJ340yVCvwmbU&index=2){:target="\_blank"}
