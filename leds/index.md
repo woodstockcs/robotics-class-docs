@@ -10,7 +10,7 @@ has_toc: false
 
 [Day 1: Color]({% link leds/color.md %})
 
-Day 2: Animation
+[Day 2: Animation]({% link leds/animation.md})
 
 Day 3: Sensors
 
