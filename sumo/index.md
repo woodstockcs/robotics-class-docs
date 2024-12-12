@@ -10,7 +10,7 @@ has_toc: false
 
 [Day 1: Distance Sensors]({% link sumo/distance.md %})
 
-Day 2:
+[Day 2: Charge]({% link sumo/charge.md %})
 
 Day 3:
 
