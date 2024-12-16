@@ -12,7 +12,7 @@ has_toc: false
 
 [Day 2: Animation]({% link leds/animation.md %})
 
-Day 3: Sensors
+[Day 3: Buttons]({% link leds/buttons.md %})
 
 Day 4: Custom
 
