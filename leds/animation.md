@@ -21,11 +21,10 @@ Let's refresh what we did last time. Build this code:
 
 ```
 on start
-└─ set strip to NeoPixel at pin P0 with 10 leds as RGB
-└─ set strip brightness 50
-└─ show color Red
-└─ set pixel color at 4 to White
-└─ show strip
+└─ set strip to NeoPixel at pin P0 with 10 leds
+└─ strip show color Red
+└─ strip set pixel color at 4 to White
+└─ strip show
 ```
 
 Update the code with more Set Pixel Color At... blocks to make every pixel light up a different color
@@ -40,7 +39,7 @@ Update the code with more Set Pixel Color At... blocks to make every pixel light
 
 # Walkthrough
 
-1. Open a new project called `LED Patterns`
+1. Open a new project called `Red and Blue`
 2. Add the NeoPixel extension
 3. Build this code that makes the LEDs change color every second:
 
@@ -49,11 +48,9 @@ on start
 └─ set strip to NeoPixel at pin P0 with 10 leds as RGB
 
 forever
-└─ show color Red
-└─ show strip
+└─ strip show color Red
 └─ pause (ms) 1000
-└─ show color Blue
-└─ show strip
+└─ strip show color Blue
 └─ pause (ms) 1000
 ```
 
@@ -87,7 +84,7 @@ Create a program that:
 {: .note-title}
 > Write in your sprint notes...
 >
-> How many pause blocks did you use?
+> How many `pause` blocks did you use?
 
 <br><br>
 
@@ -102,6 +99,13 @@ Create a single white light that moves down your strip:
 3. When it reaches the end, start over at position 0
 
 Hint: Use the "set pixel color" and "clear" blocks
+
+<details markdown="block">
+<summary>Click here for a solution</summary>
+
+![moving light](https://github.com/user-attachments/assets/69ec554a-329e-459b-9b29-5fedb9f2ccb9)
+
+</details>
 
 {: .note-title}
 > Write in your sprint notes...
@@ -120,7 +124,15 @@ Create a moving rainbow pattern:
 2. Make it move using the "rotate pixels" block
 3. Experiment with different rotation speeds and pause times
 
-Hint: Look at the example code in the NeoPixel extension blocks
+
+Hint: Use the "show rainbow" and "rotate pixels by [variable]" and "change [variable] by" blocks
+
+<details markdown="block">
+<summary>Click here for a solution</summary>
+
+![rainbow wave](https://github.com/user-attachments/assets/7bd3fd57-63be-4a57-8a36-b7dad855b277)
+
+</details>
 
 {: .note-title}
 > Write in your sprint notes...
