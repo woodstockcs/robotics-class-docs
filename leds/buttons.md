@@ -34,7 +34,7 @@ Refresh yourself on what you did last time.
 
 # Walkthrough
 
-1. Wire up a button according to [this video]().
+1. Wire up a button according to [this]().
 1. Create a new project called `Button Sample`.
 2. Build this code that makes the LEDs change color every time you press the button.
 ![Button Sample](https://github.com/user-attachments/assets/ab531211-0490-4f7b-a369-feb456c56f14)
