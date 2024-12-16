@@ -1,11 +1,11 @@
 ---
-title: Buttons
+title: Button
 nav_order: 3
 parent: LEDs
 layout: default
 ---
 
-# Buttons
+# Button
 
 <br><br>
 
@@ -63,6 +63,8 @@ Approaching
 2. Change the name to `Three Colors`, and push the save button again. This gives you a new copy of your code.
 3. Modify the code to cycle through 3 different colors.
 
+HINT: there's a number you need to change in `on pin P1 pressed`.
+
 {: .note-title}
 > Write in your sprint notes...
 >
@@ -81,6 +83,8 @@ Distinguished
    - moving rainbow
    - a moving dot (or multiple dots?)
    - solid color (that gets brighter and dimmer?)
+
+HINT: look back at previous exercises you worked on.
 
 {: .note-title}
 > Write in your sprint notes...
