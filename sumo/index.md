@@ -12,8 +12,6 @@ has_toc: false
 
 [Day 2: Charge]({% link sumo/charge.md %})
 
-Day 3:
+[Day 3: Strategy]({% link sumo/strategy.md %})
 
-Day 4:
-
-Day 5: Assessment
+Day 4: Assessment (summary of your work)
