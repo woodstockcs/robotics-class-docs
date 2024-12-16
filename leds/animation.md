@@ -39,7 +39,7 @@ Update the code with more Set Pixel Color At... blocks to make every pixel light
 
 # Walkthrough
 
-1. Open a new project called `Red and Blue`
+1. Create a new project called `Red and Blue`
 2. Add the NeoPixel extension
 3. Build this code that makes the LEDs change color every second:
 
@@ -75,7 +75,7 @@ forever
 Approaching
 {: .label .label-green }
 
-Create a program that:
+Create a new project called `Color Timer` that:
 1. Shows green for 3 seconds
 2. Changes to yellow for 2 seconds
 3. Finally changes to red for 1 second
@@ -93,7 +93,7 @@ Create a program that:
 Proficient
 {: .label .label-blue }
 
-Create a single white light that moves down your strip:
+Create a new project called `Moving Light` that makes a single white light that move down your strip:
 1. Start at position 0
 2. Move one position every half second
 3. When it reaches the end, start over at position 0
@@ -119,7 +119,7 @@ Hint: Use the "set pixel color" and "clear" blocks
 Distinguished
 {: .label .label-red }
 
-Create a moving rainbow pattern:
+Create a new project called `Rainbow Wave` that makes a moving rainbow pattern:
 1. Use the "show rainbow" block
 2. Make it move using the "rotate pixels" block
 3. Experiment with different rotation speeds and pause times
