@@ -14,6 +14,5 @@ has_toc: false
 
 [Day 3: Buttons]({% link leds/buttons.md %})
 
-Day 4: Custom
+Day 4: Assessment
 
-Day 5: Assessment
