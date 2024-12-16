@@ -27,3 +27,7 @@ Which are you working on?
 Standard: [EXP Build Instructions](https://www.vexrobotics.com/exp/downloads/build-instructions)
 
 Advanced: [V5 Build Instructions](https://www.vexrobotics.com/v5/downloads/build-instructions)
+
+Minecraft:
+- [wiley](https://books.wiley.com/titles/9781118946916/)
+- 
