@@ -23,3 +23,7 @@ Which are you working on?
 [Cubing]({% link cubing/index.md %})
 
 [Events](https://docs.google.com/spreadsheets/d/14yjt9WeImE7bghKO1MnMVBAK2pkCUTpxnHTk_ZUhfoo/edit?gid=1891473878#gid=1891473878)
+
+Standard: [EXP Build Instructions](https://www.vexrobotics.com/exp/downloads/build-instructions)
+
+Advanced: [V5 Build Instructions](https://www.vexrobotics.com/v5/downloads/build-instructions)
