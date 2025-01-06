@@ -30,4 +30,7 @@ Advanced: [V5 Build Instructions](https://www.vexrobotics.com/v5/downloads/build
 
 Minecraft:
 - [wiley](https://books.wiley.com/titles/9781118946916/)
-- 
+
+Floor Is Lave:
+- [catapult](https://platform.buildin3d.com/instructions/701-catapult-from-vex-iq)
+- [cableway](https://platform.buildin3d.com/instructions/718-cableway-from-vex-iq)
