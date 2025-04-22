@@ -4,6 +4,10 @@ layout: minimal
 nav_order: 1
 ---
 
+# Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRgvThd-HM2gIXhwK69qVpwiSL2vJJw5hWTC-1CWFXaAveUEt2MIUgO2JwEPBcsjpvrKX7ur7uSRC3N/embed?start=false&loop=true" frameborder="0" width="600" height="354" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 # Status Report
 
 [Click here to submit your status report](https://docs.google.com/forms/d/e/1FAIpQLSep7iiwhdLd0OBCROsb3pgC2OC5ZZVC-0CnZw5dlweiyRtkTg/viewform?usp=dialog){: .btn .btn-green }
