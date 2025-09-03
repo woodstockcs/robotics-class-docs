@@ -41,6 +41,7 @@ Our curriculum follows a progressive structure:
 - [Status Report Form](https://docs.google.com/forms/d/e/1FAIpQLSep7iiwhdLd0OBCROsb3pgC2OC5ZZVC-0CnZw5dlweiyRtkTg/viewform?usp=dialog){: .btn .btn-green }
 - [Course Slides](slides){: .btn .btn-blue }
 - [Getting Started Guide](getting-started){: .btn }
+- [Troubleshooting Guide](troubleshooting){: .btn .btn-red }
 
 ### 🎯 Current Projects
 - [Freeze Tag Robot](freeze)
