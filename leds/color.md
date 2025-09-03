@@ -1,89 +1,101 @@
 ---
-title: Color
+title: Day 1 - Color Control
 nav_order: 1
 parent: LEDs
 layout: default
 ---
 
-# Color
+# Day 1: Color Control
+{: .no_toc }
 
-<br><br>
+Learn how to control LED strip colors programmatically. Today you'll explore the relationship between code and visual output through colorful NeoPixel LEDs.
 
-# Purpose
+## Table of Contents
+{: .no_toc .text-delta }
 
-<table>
-<tr>
-<th>Learning:</th>
-<td style="width:100%">how to control LED strip colors</td>
-</tr>
-<tr>
-<th>Making LEDs:</th>
-<td style="width:100%">patterns with multiple colors</td>
-</tr>
-</table>
+1. TOC
+{:toc}
 
-<br><br>
+---
 
-# Sandbox
+## Learning Objectives
 
-You have a strip of 10 special LEDs called NeoPixels. Each one can be any color you want!
+By the end of this lesson, you will be able to:
+- Control individual LED colors in a strip
+- Understand RGB color values and mixing
+- Create simple color patterns
+- Use the MakeCode environment to program microcontrollers
 
-Take a few minutes to explore colors:
+| **Learning Focus** | **Skill Development** |
+|:--|:--|
+| **Concepts** | How to control LED strip colors |
+| **Application** | Creating patterns with multiple colors |
+| **Tools** | MakeCode programming environment |
 
-- [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
-- [RGB Color Mixer](https://www.w3schools.com/colors/colors_rgb.asp)
-- [Color Psychology](https://www.canva.com/colors/color-meanings/)
+---
 
-{: .note-title}
+## Color Theory Exploration
 
-> Write in your sprint notes...
->
-> What's your favorite color? Find its RGB values.
+Before programming, explore how colors work in digital systems:
 
-<br><br>
+### Resources
+- [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp) - Find color codes visually
+- [RGB Color Mixer](https://www.w3schools.com/colors/colors_rgb.asp) - Understand color mixing
+- [Color Psychology](https://www.canva.com/colors/color-meanings/) - Colors and emotions
 
-# Walkthrough
+{: .note }
+**Sprint Notes**: What's your favorite color? Find its RGB values (Red, Green, Blue numbers 0-255).
 
-1.  Go to [makecode.microbit.org](https://makecode.microbit.org).
-1.  Sign in with your school google account.
-1.  Create a new project named `LED starter`.
-1.  Add the NeoPixel extension:
-    - Click the gear icon ⚙️ in the top right
-    - Choose "Extensions"
-    - Search for and add "NeoPixel"
-1.  Build this starter code in blocks.
+---
 
-    ```
-        on start
-        └─ set strip to NeoPixel at pin P0 with 10 leds as RGB
-        └─ set strip brightness 50
-        └─ show color Red
-        └─ show strip
-    ```
+## Programming Walkthrough
 
-1.  Press the `Download` button and follow the instructions.
-1.  Now let's change one light. Update your code so it looks like this:
+### Setup Your Environment
 
-    ```
-        on start
-        └─ set strip to NeoPixel at pin P0 with 10 leds as RGB
-        └─ set strip brightness 50
-        └─ show color Red
-        └─ set pixel color at 4 to White
-        └─ show strip
-    ```
+1. Navigate to [makecode.microbit.org](https://makecode.microbit.org)
+2. Sign in with your school Google account
+3. Create a new project named `LED Color Control`
 
-1.  Download again.
+### Add NeoPixel Support
 
-{: .note-title}
+4. Add the NeoPixel extension:
+   - Click the gear icon ⚙️ in the top right
+   - Choose "Extensions"  
+   - Search for and add "NeoPixel"
 
-> Take a picture...
->
-> of your LED strip glowing red with one white LED, then check the box in your sprint notes.
->
-> **Note**: Hang on to this picture. You'll use this again soon in the assessment.
+### Basic Color Control
 
-<br><br>
+5. Build this starter code in blocks:
+
+```
+on start
+└─ set strip to NeoPixel at pin P0 with 10 leds as RGB
+└─ set strip brightness 50
+└─ show color Red
+└─ show strip
+```
+
+6. Press `Download` and transfer to your micro:bit
+
+### Individual LED Control
+
+7. Now control individual LEDs. Update your code:
+
+```
+on start
+└─ set strip to NeoPixel at pin P0 with 10 leds as RGB
+└─ set strip brightness 50
+└─ show color Red
+└─ set pixel color at 4 to White
+└─ show strip
+```
+
+8. Download and test again
+
+{: .note }
+**Documentation**: Take a picture of your LED strip showing red with one white LED. Save this for your assessment portfolio.
+
+---
 
 # Exercises
 

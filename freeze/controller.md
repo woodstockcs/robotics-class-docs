@@ -1,35 +1,69 @@
 ---
-title: Controller
-layout: home
+title: Day 1 - Robot Controller
+layout: default
 nav_order: 1
-parent: Freeze Tag
+parent: Freeze Tag Challenge
 ---
 
-# Controller
+# Day 1: Robot Controller Programming
+{: .no_toc }
 
-## 1️⃣ Get started
+Learn to control your robot using a wireless controller. Today you'll implement tank-style driving with smooth movement and variable speed control.
 
-1. Get your a controller and a brain
-1. Turn them both on
-1. Connect controller to brain
-1. Go to [codeexp.vex.com](https://codeexp.vex.com)
-1. Click File > New Text Project > Python > EXP Brain.
-1. Connect the brain (wait for the green brain icon)
+## Table of Contents
+{: .no_toc .text-delta }
 
-{: .important-title }
+1. TOC
+{:toc}
 
-> Checkpoint Question
->
-> Imagine a tank driving forward. It doesn't have a steering system like a car. How does it turn left? (write your answer on your Daily Tracker)
+---
 
-<br>
-<br>
-<br>
-## 2️⃣ Basic Task
+## Learning Objectives
 
-1. In VEX Code, add a Controller device.
-1. Copy the code below, and paste it under `# Begin Project Code`
-1. Download the code and take your robot for a test drive
+By the end of this lesson, you will be able to:
+- Implement tank-style robot control
+- Program smooth movement using interpolation
+- Add variable speed controls
+- Understand real-time control systems
+
+---
+
+## Setup Your Development Environment
+
+### Hardware Preparation
+1. Get your controller and robot brain
+2. Turn both devices on
+3. Connect controller to brain (wait for connection indicator)
+
+### Software Setup
+4. Navigate to [codeexp.vex.com](https://codeexp.vex.com)
+5. Click **File > New Text Project > Python > EXP Brain**
+6. Connect the brain (wait for the green brain icon)
+
+---
+
+## Understanding Tank Drive
+
+{: .important }
+**Think About This**: Imagine a tank driving forward. It doesn't have a steering system like a car. How does it turn left? 
+
+*Write your answer in your daily tracker before continuing.*
+
+### Tank Drive Principles
+- **Left stick** controls left side motors
+- **Right stick** controls right side motors  
+- **Forward motion**: Both sticks forward
+- **Turning**: One side faster than the other
+- **Pivot turning**: One side forward, one backward
+
+---
+
+## Basic Tank Drive Implementation
+
+### Step 1: Basic Controller Input
+
+1. In VEX Code, add a **Controller** device
+2. Copy this code under `# Begin Project Code`:
 
 ```python
 while True:
@@ -40,21 +74,37 @@ while True:
     wait(20)
 ```
 
-{: .important-title }
+3. Download and test your robot
 
-> Checkpoint Question
->
-> Ask Smith to watch you drive and stamp your Daily Tracker.
+{: .important }
+**Checkpoint**: Have your instructor watch you drive and get approval in your daily tracker.
 
-<br>
-<br>
-<br>
+---
 
-## 3️⃣ Main Challenge
+## Adding Speed Control
 
-1. Try adding `* 0.5` after each `position()`
-1. Download and test drive. Notice how it's different.
-1. Update the code to look like below.
+### Step 2: Reduce Maximum Speed
+
+1. Modify your code to reduce speed by adding `* 0.5`:
+
+```python
+while True:
+    left = controller.axis3.position() * 0.5
+    right = controller.axis2.position() * 0.5
+
+    drivetrain.set_drive_velocity(left, right)
+    wait(20)
+```
+
+2. Download and test - notice how the reduced speed affects control
+
+---
+
+## Smooth Movement Control
+
+### Step 3: Implement Movement Smoothing
+
+Sudden speed changes can make robots hard to control. Let's add smoothing:
 
 ```python
 # Begin Project Code
@@ -67,17 +117,20 @@ while True:
     left_target = controller.axis3.position() * 0.5
     right_target = controller.axis2.position() * 0.5
 
-    left_current = left_current * smoothing + target_speed * (1-smoothing)
-    right_current =
+    left_current = left_current * smoothing + left_target * (1-smoothing)
+    right_current = right_current * smoothing + right_target * (1-smoothing)
 
     # Set motor speeds using the smoothed values
     drivetrain.set_drive_velocity(left_current, right_current)
     wait(20)
-
 ```
 
-1. Finish the `right_current = ` line.
-1. Optionally, add this above the `wait(20)` command.
+{: .note }
+**Your Task**: Complete the `right_current` calculation line following the pattern from `left_current`.
+
+### Optional: Add Debug Display
+
+Add this code above `wait(20)` to see the smoothed values:
 
 ```python
     brain.screen.clear_screen()
@@ -85,42 +138,70 @@ while True:
     brain.screen.print("Right: {:.1f}".format(right_current))
 ```
 
-1. Download and test drive
+{: .important }
+**Experiment**: Try different `smoothing` values between 0.0 and 1.0. What effect does this have on robot control? Record your observations.
 
-{: .important-title }
+---
 
-> Checkpoint Question
->
-> Tinker with the `smoothing` value within the range 0.0 - 1.0. What does it do? (write your answer on your Daily Tracker)
+## Variable Speed System
 
-<br>
-<br>
-<br>
+### Step 4: Multi-Speed Control
 
-## 4️⃣ Advanced Work
-
-Add this just above `left_target = ...`
+Add speed selection using controller buttons:
 
 ```python
-    if controller.buttonR1.pressing():
-        speed_mult = 1.0
-    elif controller.buttonR2.pressing():
-        speed_mult = 0.25
-    else:
-        speed_mult = 0.5
+# Add this above left_target = ...
+if controller.buttonR1.pressing():
+    speed_mult = 1.0      # Fast speed
+elif controller.buttonR2.pressing():
+    speed_mult = 0.25     # Slow speed  
+else:
+    speed_mult = 0.5      # Normal speed
 ```
-
-And add this just before setting the drive velocity:
 
 ```python
-    left_current *= speed_mult
-    right_current *= speed_mult
+# Add this before setting drive velocity
+left_current *= speed_mult
+right_current *= speed_mult
 ```
 
-Download and test drive.
+### Complete Control Scheme
 
-{: .important-title }
+| Control | Function |
+|:--|:--|
+| **Left Stick** | Left side motors |
+| **Right Stick** | Right side motors |
+| **R1 Button** | Fast speed (100%) |
+| **R2 Button** | Slow speed (25%) |
+| **Default** | Normal speed (50%) |
 
-> Checkpoint Question
->
-> Ask Smith to watch you drive and stamp your Daily Tracker.
+{: .important }
+**Final Checkpoint**: Demonstrate all three speed modes to your instructor for approval.
+
+---
+
+## Understanding the Code
+
+### Key Programming Concepts
+
+1. **Real-time Loop**: The `while True` loop runs continuously
+2. **Interpolation**: Smoothing creates gradual transitions
+3. **State Management**: Variables track current vs. target values
+4. **Input Processing**: Controller values become motor commands
+
+### Performance Considerations
+
+- **Update Rate**: `wait(20)` means 50 updates per second
+- **Smoothing Factor**: Higher values = more smoothing, slower response
+- **Speed Multipliers**: Allow fine control for different situations
+
+---
+
+## Next Steps
+
+This foundational control system will be essential for:
+- **Autonomous navigation** - Converting sensor input to movement
+- **Competition strategy** - Precise maneuvering in tight spaces
+- **Advanced behaviors** - Building complex robot actions
+
+Tomorrow we'll add autonomous features to make your robot play freeze tag independently!
